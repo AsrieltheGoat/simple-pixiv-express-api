@@ -1,0 +1,19 @@
+{
+  "name": "pixiv-express-api",
+  "version": "1.0.0",
+  "description": "Simple Pixiv API, render using Express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "AsrieltheGoat",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.2",
+    "image-to-base64": "^2.2.0",
+    "pixiv-api-client": "^0.25.0"
+  }
+}
